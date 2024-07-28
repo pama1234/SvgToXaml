@@ -43,6 +43,20 @@
       </Button.Content>
     </Button>
 
+    <Button Command="{Binding AddFolderCommand}"
+            HorizontalContentAlignment="Center"
+            HorizontalAlignment="Left"
+            Background="Transparent"
+            DockPanel.Dock="Right"
+            ToolTip.Tip="Add All In Folders"
+            Padding="12,8,12,8"
+            Margin="0,6,0,12">
+      <Button.Content>
+        <PathIcon Width="16" Height="16"
+                  Data="{DynamicResource AddFolderIcon}"/>
+      </Button.Content>
+    </Button>
+
     <Button Command="{Binding OpenCommand}"
             HorizontalContentAlignment="Center"
             HorizontalAlignment="Left"
